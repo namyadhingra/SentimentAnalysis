@@ -111,7 +111,7 @@ This project is a **Sentiment Analysis Web Application** built using **Streamlit
 #### **Usage Example**
 1. Run the application:
    ```bash
-   streamlit run sentiment_analysis_app.py
+   streamlit run sentiment_analysis.py
    ```
 2. Upload a training dataset with `content` and `score` columns.
 3. Select a machine learning model (Logistic Regression, Random Forest, or XGBoost).
