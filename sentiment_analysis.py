@@ -28,7 +28,7 @@ def clean_text(text):
 
 # Streamlit UI setup
 st.title("Sentiment Analysis App")
-st.sidebar.header("Upload Dataset")
+st.sidebar.header("Upload Training Dataset")
 uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type="csv")
 
 if uploaded_file:
